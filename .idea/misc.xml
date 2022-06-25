@@ -3,8 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/aviso_de_remover.xml" value="0.1" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/aviso_de_remover_background_red.xml" value="0.18" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/dialog_aviso_de_remover_background.xml" value="0.12" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/dialog_background.xml" value="0.1185" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/dialog_botao_background.xml" value="0.1185" />
         <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/drawable/efeito_background_transparente.xml" value="0.135" />
-        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/activity_lista_notas.xml" value="0.25" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/activity_formulario_cadastro.xml" value="0.1" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/activity_inserir_nota.xml" value="0.22" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/activity_lista_notas.xml" value="0.22" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/item_nota.xml" value="0.33" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/layout/layout_remover_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/menu/inserir_nota_menu_salvar.xml" value="0.209375" />
+        <entry key="..\:/Users/Trabalho/Desktop/Portfolio/AppNota/app/src/main/res/menu/lista_notas_menu_remover.xml" value="0.209375" />
       </map>
     </option>
   </component>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_dialog_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/dialog_background"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/dialog_texto_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_aviso_de_remover_background"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Remover" />
+
+        <ImageView
+            android:id="@+id/dialog_imagem_icone_remover"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            app:layout_constraintEnd_toEndOf="@id/layout_dialog"
+            app:layout_constraintTop_toTopOf="@id/layout_dialog"
+            tools:src="@drawable/ic_action_deletar" />
+
+        <TextView
+            android:id="@+id/dialog_texto_mensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/dialog_texto_titulo"
+            tools:layout_editor_absoluteX="41dp"
+            tools:text="Deseja mesmo remover ?" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/dialog_botao_sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/dialog_botao_background"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/layout_dialog"
+        app:layout_constraintEnd_toEndOf="@+id/layout_dialog"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/layout_dialog"
+        app:layout_constraintTop_toBottomOf="@+id/layout_dialog"
+        tools:text="Sim" />
+
+    <Button
+        android:id="@+id/dialog_botao_nao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/dialog_botao_background"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/layout_dialog"
+        app:layout_constraintEnd_toEndOf="@+id/layout_dialog"
+        app:layout_constraintTop_toBottomOf="@+id/layout_dialog"
+        tools:text="Não" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

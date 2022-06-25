@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Nota</string>
+    <string name="titulo">Título</string>
+    <string name="descricao">Descrição</string>
+    <string name="salvar">Salvar</string>
+    <string name="conteudo_para_estudar">Conteudo para estudar</string>
+    <string name="inserir_uma_nota">Inserir uma nota</string>
+    <string name="remover">Remover</string>
+
+    <!--dialog personalizado -->
+    <string name="palavra_remover_dialog">Remover</string>
+    <string name="mensagem_remover">Deseja mesmo remover ?</string>
+    <string name="botao_sim">Sim</string>
+    <string name="botao_não">Não</string>
+
 </resources>
